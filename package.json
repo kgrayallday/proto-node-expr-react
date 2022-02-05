@@ -1,0 +1,28 @@
+{
+  "name": "node-expr-react",
+  "version": "1.0.0",
+  "description": "prototype for node express and react web app",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"No start script specified\" $$ exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/kgrayallday.git"
+  },
+  "keywords": [
+    "prototype"
+  ],
+  "author": "Kyle M Gray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/kgrayallday/issues"
+  },
+  "homepage": "https://github.com/github.com/kgrayallday#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "react": "^17.0.2"
+  }
+}
