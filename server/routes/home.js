@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const homeRoutes = express.Router();
 
 // basic routing 
 // app.METHOD(PATH, HANDLER)
@@ -8,4 +9,8 @@ const app = express();
 // - path is a path to the server
 // - handler is the function exec when the route is matched
 
-
+module.exports = function(){
+	homeRoutes.get('/', function(req, res) {
+		res.send('you are home');
+	}
+}
